@@ -2,15 +2,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Playfair Display", sans-serif;
+    font-family: 'Courier Prime', Courier, monospace;
 }
 body{
     height: 100vh;
-    background: linear-gradient(137deg, #5276FB,#C3CFFE );
+    background: linear-gradient(137deg, #8052ec, #d161ff);
 }
 html{
     font-size: 16px;
-
 }
 .wrapper{
     position: absolute;
@@ -26,50 +25,48 @@ html{
     gap: 2vmin;
 }
 .button-option{
-    background:#fff;
+    background: #ffffff;
     height: 22vmin;
     width: 22vmin;
     border: none;
     border-radius: 8px;
     font-size: 12vmin;
-    color: #7c93ec;
+    color: #d161ff;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 #restart{
-    margin-top: 1.5em;
     font-size: 1.3em;
     padding: 1em;
-    border-radius: 9px;
-    background-color: aliceblue;
-    color: #000;
+    border-radius: 8px;
+    background-color: #0a0027;
+    color: #ffffff;
     border: none;
     position: relative;
-    margin: 1em auto 0 auto;
+    margin: 1.5em auto 0 auto;
     display: block;
 }
 .popup{
-    background: linear-gradient(137deg, #5276FB,#C3CFFE );
+    background: linear-gradient(137deg, #8052ec, #d161ff);
     height: 100%;
     width: 100%;
     position: absolute;
     display: flex;
-    z-index: 2;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 1em;
     font-size: 12vmin;
 }
-#newgame{
+#new-game{
     font-size: 0.6em;
-    padding: 0.5em 1em;
-    background-color: #7c93ec;
-    color: #000;
+    padding: 0.5em 1em ;
+    background-color: #0a0027;
+    color: #ffffff;
     border-radius: 0.2em;
     border: none;
 }
 #message{
-    color: #000;
+    color: #ffffff;
     text-align: center;
     font-size: 1em;
 }
